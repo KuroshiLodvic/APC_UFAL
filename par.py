@@ -1,5 +1,6 @@
-quantidade = 10
+a = 100
+b = 0
 
-for x in range(0, quantidade):
+for x in range(a, b-1, -1):
     if x != 0 and x % 2 == 0:
-        print(x)
+        print(x, end=' ')
